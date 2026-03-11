@@ -32,29 +32,34 @@ export function ArticlesSection() {
         {/* Article cards */}
         <div className="flex gap-[32px] items-start w-[1256px]">
           {/* Card 1 */}
-          <div className="bg-white flex-1 rounded-[56px]">
+          <a 
+            href="https://aibusiness.com/nlp/-future-you-ai-allows-you-to-meet-your-future-self" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-white flex-1 rounded-[56px] transition-transform hover:-translate-y-[10px] block"
+          >
             <div className="flex items-end">
               <div className="flex gap-[32px] items-end pl-[32px] pr-[44px] py-[32px] w-full">
                 <div className="bg-[#737373] overflow-clip rounded-[30px] shrink-0 size-[278px]">
                   <img alt="Article 1" className="w-full h-full object-cover pointer-events-none" src={imgImage4} />
                 </div>
                 <div className="flex flex-1 flex-col h-[278px] items-start justify-between">
-                  <a
-                    className="block font-['Phudu',sans-serif] font-bold text-[25px] leading-[1.02] tracking-[-0.25px] text-black hover:opacity-80 transition-opacity"
-                    href="https://aibusiness.com/nlp/-future-you-ai-allows-you-to-meet-your-future-self"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className="block font-['Phudu',sans-serif] font-bold text-[25px] leading-[1.02] tracking-[-0.25px] text-black">
                     'Future You' AI Allows You to Meet Your Future Self
-                  </a>
+                  </p>
                   <AiBusinessLogo />
                 </div>
               </div>
             </div>
-          </div>
+          </a>
 
           {/* Card 2 */}
-          <div className="bg-white flex-1 rounded-[56px]">
+          <a
+            href="https://psyche.co/guides/how-to-connect-with-your-future-self-and-make-better-choices"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white flex-1 rounded-[56px] transition-transform hover:-translate-y-[10px] block"
+          >
             <div className="flex items-end">
               <div className="flex gap-[32px] items-end pl-[32px] pr-[44px] py-[32px] w-full">
                 <div className="bg-[#737373] overflow-clip rounded-[30px] shrink-0 size-[278px]">
@@ -70,7 +75,7 @@ export function ArticlesSection() {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

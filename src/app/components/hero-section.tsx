@@ -13,11 +13,11 @@ export function HeroSection() {
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-start pt-[241px]">
         <div className="flex flex-col items-center gap-[26px]">
-          <div className="font-['Phudu',sans-serif] font-extrabold text-[64px] leading-[58px] tracking-[-1px] text-center text-white mix-blend-difference">
+          <div style={{ color: "white", mixBlendMode: "difference" }} className="font-['Phudu',sans-serif] font-extrabold text-[64px] leading-[58px] tracking-[-1px] text-center text-white mix-blend-difference">
             <p className="mb-0">Meet your future self</p>
             <p>{`TALK & LEARN from it`}</p>
           </div>
-          <div className="font-['Manrope',sans-serif] font-bold text-[15px] leading-[1.4] tracking-[-0.3px] text-center text-white mix-blend-difference">
+          <div style={{ color: "white", mixBlendMode: "difference" }} className="font-['Manrope',sans-serif] font-bold text-[15px] leading-[1.4] tracking-[-0.3px] text-center text-white mix-blend-difference">
             <p className="mb-0">The first AI app in the universe that lets you meet possible future of yourself.</p>
             <p>Explore how they live, experiment with their choices, and take the lessons back to grow in your real life.</p>
           </div>

@@ -35,12 +35,12 @@ function ButtonLarge() {
 
 function Frame() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[26px] items-center left-[calc(50%+0.5px)] top-[241px]">
-      <div className="font-['Phudu',sans-serif] font-extrabold leading-[58px] mix-blend-difference not-italic relative shrink-0 text-[64px] text-center text-white tracking-[-1px] whitespace-nowrap">
+    <div className="absolute inset-x-0 content-stretch flex flex-col gap-[26px] items-center top-[241px]">
+      <div style={{ color: "white", mixBlendMode: "difference" }} className="font-['Phudu',sans-serif] font-extrabold leading-[58px] mix-blend-difference not-italic relative shrink-0 text-[64px] text-center text-white tracking-[-1px] whitespace-nowrap">
         <p className="mb-0">Meet your future self</p>
         <p>{`TALK & LEARN from it`}</p>
       </div>
-      <div className="font-['Manrope',sans-serif] font-bold leading-[1.4] mix-blend-difference not-italic relative shrink-0 text-[15px] text-center text-white tracking-[-0.3px] whitespace-nowrap">
+      <div style={{ color: "white", mixBlendMode: "difference" }} className="font-['Manrope',sans-serif] font-bold leading-[1.4] mix-blend-difference not-italic relative shrink-0 text-[15px] text-center text-white tracking-[-0.3px] whitespace-nowrap">
         <p className="mb-0">The first AI app in the universe that lets you meet possible future of yourself.</p>
         <p>Explore how they live, experiment with their choices, and take the lessons back to grow in your real life.</p>
       </div>
@@ -342,9 +342,7 @@ function AiBusinessLogoWithCogOnLightRgb() {
 function Frame15() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col h-[278px] items-start justify-between min-h-px min-w-px relative">
-      <a className="block font-['Phudu',sans-serif] font-bold leading-[0] min-w-full not-italic relative shrink-0 text-[25px] text-black tracking-[-0.25px] w-[min-content]" href="https://aibusiness.com/nlp/-future-you-ai-allows-you-to-meet-your-future-self">
-        <p className="cursor-pointer leading-[1.02]">‘Future You’ AI Allows You to Meet Your Future Self</p>
-      </a>
+      <p className="block font-['Phudu',sans-serif] font-bold leading-[1.02] min-w-full not-italic relative shrink-0 text-[25px] text-black tracking-[-0.25px] w-[min-content]">‘Future You’ AI Allows You to Meet Your Future Self</p>
       <AiBusinessLogoWithCogOnLightRgb />
     </div>
   );
@@ -352,14 +350,19 @@ function Frame15() {
 
 function Frame14() {
   return (
-    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[56px]">
+    <a 
+      href="https://aibusiness.com/nlp/-future-you-ai-allows-you-to-meet-your-future-self" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[56px] transition-transform hover:-translate-y-[10px] block"
+    >
       <div className="flex flex-row items-end size-full">
         <div className="content-stretch flex gap-[32px] items-end pl-[32px] pr-[44px] py-[32px] relative w-full">
           <Frame13 />
           <Frame15 />
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -386,14 +389,19 @@ function Frame20() {
 
 function Frame18() {
   return (
-    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[56px]">
+    <a
+      href="https://psyche.co/guides/how-to-connect-with-your-future-self-and-make-better-choices"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[56px] transition-transform hover:-translate-y-[10px] block"
+    >
       <div className="flex flex-row items-end size-full">
         <div className="content-stretch flex gap-[32px] items-end pl-[32px] pr-[44px] py-[32px] relative w-full">
           <Frame19 />
           <Frame20 />
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
